@@ -131,7 +131,7 @@ class SpherePillardsClass {
         if(SoundReactor.playFlag){
             let i = 0
        while(i < this.pillards.children.length){
-        this.pillards.children[i].children[0].position.y = SoundReactor.fdata[i] / 255 * 4  
+        this.pillards.children[i].children[0].position.y = SoundReactor.fdata[i] / 255 * 3  
         i++
     }
            
